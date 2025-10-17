@@ -77580,7 +77580,7 @@ q=6*m
 p=4*m
 return A.cZ(A.b([A.lX(A.k4(B.cK,1),A.b([new A.bb(o,B.ig,A.b([k.$2$fw("Name",B.M),k.$2$fw("Size",B.M),k.$2$fw("Pipe qty",B.M),k.$2$fw("Pipe val",B.M),k.$2$fw("Elbow",B.M),k.$2$fw("Elbow val",B.M),k.$2$fw("Tee",B.M),k.$2$fw("Tee val",B.M),k.$2$fw("Flanges",B.M),k.$2$fw("Flanges val",B.M),k.$2$fw("Total",B.M)],s)),l.$6("Feed in/out main",18,r,5,2,2*m),l.$6("Feed in/out each",8,r,q,2,14*m),l.$6("Backwash inlet",12,r,q,2,p),l.$6("Backwash drain",12,r,q,2,p),l.$6("Air inlet",6,r,q,2,p),l.$6("Top / bottom common",8,m*4,q,p*2,0)],t.nk),o,B.cR,B.cx),A.K("total:"+B.c.k(n.a),o,o,o,o,o,o)],s),B.u,B.n,B.q)},
 aaR(){var s=null,r=this.bx("FlowRequiredRO"),q=this.f,p=q/3.68,o=p/r/24,n=new A.abE(),m=A.k4(B.cK,1),l=t.p,k=A.b([n.$2$fw("Description",B.M),n.$2$fw("AED",B.M),n.$2$fw("USD",B.M),n.$2$fw("USD/M\xb3",B.M)],l),j=n.$1("1  Total cost"),i=n.$1(B.c.D(q,2)),h=n.$1(B.c.D(p,2))
-return A.cZ(A.b([B.SL,B.d4,A.lX(m,A.b([new A.bb(s,B.ig,k),new A.bb(s,s,A.b([j,i,h,n.$1(isFinite(o)?B.c.D(o,2):"0.00")],l)),new A.bb(s,s,A.b([n.$1("2  Water produced - M\xb3"),n.$1(""),n.$1(""),n.$1(B.c.D(r,2))],l))],t.nk),s,B.cR,B.cx)],l),B.a2,B.n,B.q)},
+return A.cZ(A.b([B.SM,B.d4,A.lX(m,A.b([new A.bb(s,B.ig,k),new A.bb(s,s,A.b([j,i,h,n.$1(isFinite(o)?B.c.D(o,2):"0.00")],l)),new A.bb(s,s,A.b([n.$1("2  Water produced - M\xb3"),n.$1(""),n.$1(""),n.$1(B.c.D(r,2))],l))],t.nk),s,B.cR,B.cx)],l),B.a2,B.n,B.q)},
 aaU(){var s,r,q,p,o,n,m,l=this,k=null,j={},i=l.bx("NoOfUFStreams")
 l.bx("Flux")
 s=l.bx("FlowRequiredRO")
@@ -77721,11 +77721,11 @@ a5=A.be(n.gaA())
 if(a5==null)a5=0
 a8=B.b.mO(A.b([b*a3,a*a4,a0*a5],a6),0,new A.abo())
 a6=t.p
-a5=A.bj(A.b([B.SH,A.bP(b0,b0,30),A.K("Total AED: "+B.c.D(a7+a8,2),b0,b0,b0,B.bl,b0,b0)],a6),B.u,B.n,B.q,b0)
+a5=A.bj(A.b([B.SI,A.bP(b0,b0,30),A.K("Total AED: "+B.c.D(a7+a8,2),b0,b0,b0,B.bl,b0,b0)],a6),B.u,B.n,B.q,b0)
 b7=A.b([B.d5,a5,B.bU,A.a8u(A.K(J.d(b8.h(0,a9),!0)?"Hide details":"See details",b0,b0,b0,b0,b0,b0),new A.abp(b7,c1,b9),b0)],a6)
 if(J.d(b8.h(0,a9),!0)){b8=t.s
 a3=t.nk
-B.b.U(b7,A.b([B.d4,B.SQ,A.lX(A.k4(B.cK,1),A.b([a1.$1(A.b(["","Chemical","Kg/day","AED/Kg","Cost AED/day"],b8)),a2.$4("1","NaoCl",f,s),a2.$4("2","HCl",e,r),a2.$4("3","Caustic",d,q)],a3),b0,B.cR,B.cx),B.d4,B.SY,A.lX(A.k4(B.cK,1),A.b([a1.$1(A.b(["","Chemical","Kg/CIP","AED/Kg","Cost AED/CIP"],b8)),c.$4("1","NaoCl",b,p),c.$4("2","HCl",a,o),c.$4("3","Caustic",a0,n)],a3),b0,B.cR,B.cx)],a6))}return A.cZ(b7,B.a2,B.n,B.q)},
+B.b.U(b7,A.b([B.d4,B.SR,A.lX(A.k4(B.cK,1),A.b([a1.$1(A.b(["","Chemical","Kg/day","AED/Kg","Cost AED/day"],b8)),a2.$4("1","NaoCl",f,s),a2.$4("2","HCl",e,r),a2.$4("3","Caustic",d,q)],a3),b0,B.cR,B.cx),B.d4,B.SY,A.lX(A.k4(B.cK,1),A.b([a1.$1(A.b(["","Chemical","Kg/CIP","AED/Kg","Cost AED/CIP"],b8)),c.$4("1","NaoCl",b,p),c.$4("2","HCl",a,o),c.$4("3","Caustic",a0,n)],a3),b0,B.cR,B.cx)],a6))}return A.cZ(b7,B.a2,B.n,B.q)},
 $S:202}
 A.abh.prototype={
 $0(){return new A.aa(B.l,$.a9())},
@@ -77863,7 +77863,7 @@ HO(a,b,c,d){var s=null
 return new A.ag(B.iW,A.bj(A.b([A.bP(A.K(a,s,s,s,s,s,s),s,160),B.bg,A.bP(A.hV(!0,B.aR,!1,s,!0,B.Q,s,A.j3(),b,s,s,s,s,s,2,B.cs,B.a0,!0,s,!0,s,!1,s,B.aW,s,s,s,B.bI,s,s,s,1,s,s,!1,"\u2022",s,c,s,s,s,!1,s,s,d,s,!0,s,B.bo,s,s,B.aP,B.aI,s,s,s,s,s,s,s,!0,B.aE,s,B.bt,s,s,s,s),s,80)],t.p),B.u,B.n,B.cu,s),s)},
 zk(a,b,c){return this.HO(a,b,c,!1)},
 HN(a,b,c){return this.HO(a,b,null,c)},
-Z_(){var s,r=this,q=null,p=r.Js(),o=r.Jq(),n=A.k4(B.R,1),m=A.b([B.Dt,B.DF,B.DR,A.je(A.d_(q,B.SW,B.w,q,q,q,q,q,q,70)),A.je(A.d_(q,B.SX,B.w,q,q,q,q,q,q,50)),A.je(A.d_(q,B.Th,B.w,q,q,q,q,q,q,85)),A.je(A.d_(q,B.Tk,B.w,q,q,q,q,q,q,50)),B.DI,A.je(A.d_(q,B.SO,B.w,q,q,q,q,q,q,80)),A.je(A.d_(q,B.T6,B.w,q,q,q,q,q,q,50)),A.je(A.d_(q,B.T4,B.w,q,q,q,q,q,q,50)),A.je(A.d_(q,B.T5,B.w,q,q,q,q,q,q,50)),A.je(A.d_(q,B.SD,B.w,q,q,q,q,q,q,80)),A.je(A.d_(q,B.Sx,B.w,q,q,q,q,q,q,80))],t.UR),l=r.y
+Z_(){var s,r=this,q=null,p=r.Js(),o=r.Jq(),n=A.k4(B.R,1),m=A.b([B.Dt,B.DF,B.DR,A.je(A.d_(q,B.SW,B.w,q,q,q,q,q,q,70)),A.je(A.d_(q,B.SX,B.w,q,q,q,q,q,q,50)),A.je(A.d_(q,B.Th,B.w,q,q,q,q,q,q,85)),A.je(A.d_(q,B.Tk,B.w,q,q,q,q,q,q,50)),B.DI,A.je(A.d_(q,B.SP,B.w,q,q,q,q,q,q,80)),A.je(A.d_(q,B.T6,B.w,q,q,q,q,q,q,50)),A.je(A.d_(q,B.T4,B.w,q,q,q,q,q,q,50)),A.je(A.d_(q,B.T5,B.w,q,q,q,q,q,q,50)),A.je(A.d_(q,B.SE,B.w,q,q,q,q,q,q,80)),A.je(A.d_(q,B.Sy,B.w,q,q,q,q,q,q,80))],t.UR),l=r.y
 l===$&&A.a()
 s=A.R(l).i("a0<1,eS>")
 l=A.Z(new A.a0(l,new A.ad5(r,p,o),s),s.i("al.E"))
@@ -77883,7 +77883,7 @@ m=o/(n==null?1:n)
 j=t.p
 return A.lX(A.k4(B.R,1),A.b([new A.bb(k,k,A.b([new A.ag(B.x,A.K("Cost",k,k,k,B.y,B.S,k),k),new A.ag(B.x,A.K("Cost AED",k,k,k,B.y,B.S,k),k),new A.ag(B.x,A.K("Cost USD",k,k,k,B.y,B.S,k),k)],j)),new A.bb(k,k,A.b([new A.ag(B.x,A.K("Chemical cost /Month",k,k,k,B.y,B.S,k),k),new A.ag(B.x,A.K(B.c.D(s,2),k,k,k,B.y,B.S,k),k),new A.ag(B.x,A.K(B.c.D(s/3.68,2),k,k,k,B.y,B.S,k),k)],j)),new A.bb(k,k,A.b([new A.ag(B.x,A.K("Consumables /Month",k,k,k,B.y,B.S,k),k),new A.ag(B.x,A.K(B.c.D(q,2),k,k,k,B.y,B.S,k),k),new A.ag(B.x,A.K(B.c.D(q/3.68,2),k,k,k,B.y,B.S,k),k)],j)),new A.bb(k,k,A.b([new A.ag(B.x,A.K("Total cost /Month",k,k,k,B.y,B.S,k),k),new A.ag(B.x,A.K(B.c.D(p,2),k,k,k,B.y,B.S,k),k),new A.ag(B.x,A.K(B.c.D(p/3.68,2),k,k,k,B.y,B.S,k),k)],j)),new A.bb(k,k,A.b([new A.ag(B.x,A.K("Cost per day",k,k,k,B.y,B.S,k),k),new A.ag(B.x,A.K(B.c.D(o,2),k,k,k,B.y,B.S,k),k),new A.ag(B.x,A.K(B.c.D(o/3.68,2),k,k,k,B.y,B.S,k),k)],j)),new A.bb(k,k,A.b([new A.ag(B.x,A.K("Cost /M3",k,k,k,B.y,B.S,k),k),new A.ag(B.x,A.K(B.c.D(m,2),k,k,k,B.y,B.S,k),k),new A.ag(B.x,A.K(B.c.D(m/3.68,2),k,k,k,B.y,B.S,k),k)],j))],t.nk),B.Jg,B.jt,B.cx)},
 N(a){var s=this,r=null,q=s.zk("RO Plant Product Flow",s.d,new A.ada(s)),p=s.zk("Recovery",s.e,new A.adb(s)),o=s.HN("Feed Flow",s.f,!0),n=s.HN("Reject Flow",s.r,!0),m=s.zk("Dosing Tank Capacity",s.w,new A.adc(s)),l=A.c5(a,r,t.w).w,k=t.p
-return A.amo(r,new A.ag(B.EO,A.lU(A.cZ(A.b([B.ST,B.d4,q,p,o,n,m,B.d5,B.Ec,B.T0,B.d4,A.bP(A.lU(s.Z_(),B.aH),r,l.a.a),A.bP(r,10,r),A.bj(A.b([B.Sr,B.NZ,A.bP(A.hV(!0,B.aR,!1,r,!0,B.Q,r,A.j3(),s.z,r,r,r,r,r,2,B.Fs,B.a0,!0,r,!0,r,!1,r,B.aW,r,r,r,B.bI,r,r,r,1,r,r,!1,"\u2022",r,new A.add(s),r,r,r,!1,r,r,!1,r,!0,r,B.bo,r,r,B.aP,B.aI,r,r,r,r,r,r,r,!0,B.aE,r,B.bt,r,r,r,r),r,120)],k),B.u,B.n,B.q,r),B.d5,A.bj(A.b([A.Gl(A.lU(s.YZ(),B.aH),4),B.O_,A.Gl(A.lU(s.Z6(),B.aH),1)],k),B.a2,B.n,B.q,r)],k),B.a2,B.n,B.q),B.aH),r))}}
+return A.amo(r,new A.ag(B.EO,A.lU(A.cZ(A.b([B.Sr,B.d4,q,p,o,n,m,B.d5,B.Ec,B.T0,B.d4,A.bP(A.lU(s.Z_(),B.aH),r,l.a.a),A.bP(r,10,r),A.bj(A.b([B.Ss,B.NZ,A.bP(A.hV(!0,B.aR,!1,r,!0,B.Q,r,A.j3(),s.z,r,r,r,r,r,2,B.Fs,B.a0,!0,r,!0,r,!1,r,B.aW,r,r,r,B.bI,r,r,r,1,r,r,!1,"\u2022",r,new A.add(s),r,r,r,!1,r,r,!1,r,!0,r,B.bo,r,r,B.aP,B.aI,r,r,r,r,r,r,r,!0,B.aE,r,B.bt,r,r,r,r),r,120)],k),B.u,B.n,B.q,r),B.d5,A.bj(A.b([A.Gl(A.lU(s.YZ(),B.aH),4),B.O_,A.Gl(A.lU(s.Z6(),B.aH),1)],k),B.a2,B.n,B.q,r)],k),B.a2,B.n,B.q),B.aH),r))}}
 A.ad7.prototype={
 $0(){},
 $S:0}
@@ -78076,7 +78076,7 @@ k=t.N
 s=t.z
 r=t.i0
 k=A.Z(new A.a0(A.b([A.l(["label","In/out common header","value",j],k,s),A.l(["label","Each header MMF","value",i],k,s),A.l(["label","Backwash in/out","value",h],k,s),A.l(["label","Air - inlet/outlet","value",g],k,s)],t.H7),new A.afK(q),r),r.i("al.E"))
-return new A.ag(B.iV,A.cZ(A.b([B.SG,B.bU,A.vx(p,16,B.HC,p,p,new A.bo(B.fk,t.rc),k)],t.p),B.a2,B.n,B.q),p)},
+return new A.ag(B.iV,A.cZ(A.b([B.SH,B.bU,A.vx(p,16,B.HC,p,p,new A.bo(B.fk,t.rc),k)],t.p),B.a2,B.n,B.q),p)},
 aaW(){var s=this,r=null,q={},p=A.be(s.CW.a.a),o=A.be(s.cx.a.a),n=A.be(s.y.a.a),m=[31,47,78,78,78],l=A.b(["10%","10% - 20%","10% - 20%","30% - 50%","30% - 50%"],t.s),k=o!=null?60*o/100:0,j=t.N,i=t.z,h=A.b([A.l(["packing","50kg bag","media","Gravel 3 - 6mm","actualIndex",1,"unitPrice",30,"quantity",m[0]],j,i),A.l(["packing","50kg bag","media","Gravel 1 - 2 mm","actualIndex",2,"unitPrice",30,"quantity",m[1]],j,i),A.l(["packing","50kg bag","media","Sand 0.8 - 1.2 mm","actualIndex",3,"unitPrice",30,"quantity",m[2]],j,i),A.l(["packing","50kg bag","media","Sand 0.3 - 0.6mm","actualIndex",4,"unitPrice",30,"quantity",m[3]],j,i),A.l(["packing","50kg bag","media","Sand 0.6 - 0.8mm","actualIndex",5,"unitPrice",30,"quantity",m[4]],j,i)],t.H7)
 q.a=0
 return new A.ag(B.iV,A.cZ(A.b([B.yY,B.bU,A.lU(A.vx(r,16,B.nl,r,r,new A.bo(B.fk,t.rc),A.Hr(5,new A.afI(q,s,h,new A.afH(p,o,n),k,l),!0,t.VZ)),B.bn),new A.dR(new A.afJ(q,s),r)],t.p),B.a2,B.n,B.q),r)},
@@ -78179,7 +78179,7 @@ return new A.ag(B.mv,A.bj(A.b([A.bP(A.K(a,s,s,s,B.kO,s,s),s,150),B.bg,A.bP(A.hV(
 mu(a,b,c){return this.hP(a,b,c,!1)},
 aaT(){var s=null,r=A.bP(B.Td,s,150),q=this.fy,p=this.go
 p=A.Z(new A.a0(p,new A.afu(),A.R(p).i("a0<1,e4<n>>")),t.b7)
-return new A.ag(B.mv,A.bj(A.b([r,B.bg,A.bP(A.ayu(B.n3,B.SP,p,new A.afv(this),q,t.N),s,204)],t.p),B.u,B.n,B.q,s),s)},
+return new A.ag(B.mv,A.bj(A.b([r,B.bg,A.bP(A.ayu(B.n3,B.SQ,p,new A.afv(this),q,t.N),s,204)],t.p),B.u,B.n,B.q,s),s)},
 N(a){var s,r,q,p,o,n,m,l,k,j,i,h,g=this,f=null,e="Inch Size",d="Each Size",c="MMF - Sand + Anthracite",b=g.y
 A.be(b.a.a)
 s=t.p
@@ -78208,7 +78208,7 @@ h=A.d_(f,A.K("1 lot",f,B.aF,f,B.yV,f,f),B.w,f,f,new A.cI(f,f,i,h,f,f,B.al),f,f,B
 i=B.c.D(g.k4,2)
 j=A.bj(A.b([B.O5,B.bg,j,B.bg,h,B.bg,g.l3(i,110)],s),B.u,B.n,B.q,f)
 i=g.p4
-b=A.bj(A.b([n,m,A.cZ(A.b([l,B.O6,k,B.bU,b,B.bU,j,B.eX,A.ja(A.K("Total Price: "+(i!=null?B.c.D(i,2):""),f,f,f,B.bl,f,f),f,f),B.d4,A.ja(new A.G7(new A.afO(g),f,f,f,f,f,f,!1,f,!0,f,B.SC,f),f,f)],s),B.u,B.n,B.q)],s),B.u,B.n,B.q,f)
+b=A.bj(A.b([n,m,A.cZ(A.b([l,B.O6,k,B.bU,b,B.bU,j,B.eX,A.ja(A.K("Total Price: "+(i!=null?B.c.D(i,2):""),f,f,f,B.bl,f,f),f,f),B.d4,A.ja(new A.G7(new A.afO(g),f,f,f,f,f,f,!1,f,!0,f,B.SD,f),f,f)],s),B.u,B.n,B.q)],s),B.u,B.n,B.q,f)
 n=A.EV(B.h7)
 m=A.kI(4)
 l=g.p1
@@ -78227,7 +78227,7 @@ k.push(B.eX)
 k.push(A.cZ(A.b([B.Tb,B.bU,g.mu("Common",q,e),g.mu(d,p,e)],s),B.a2,B.n,B.q))
 k.push(B.eX)
 k.push(g.aaV())
-return A.amo(new A.uI(B.St,r,new A.OZ(f,f,1/0,56),f),A.bj(A.b([o,A.Gl(A.lU(A.cZ(k,B.a2,B.n,B.q),B.aH),1)],s),B.a2,B.n,B.q,f))}}
+return A.amo(new A.uI(B.Su,r,new A.OZ(f,f,1/0,56),f),A.bj(A.b([o,A.Gl(A.lU(A.cZ(k,B.a2,B.n,B.q),B.aH),1)],s),B.a2,B.n,B.q,f))}}
 A.afU.prototype={
 $0(){var s=this.a,r=A.be(s.y.a.a)
 s.aa(new A.afT(s,r==null?0:r))},
@@ -81540,8 +81540,8 @@ B.co=new A.pX(B.l4,null,null,null,null,null,null,null)
 B.be=new A.FA(0,"base")
 B.iI=new A.FA(1,"elevated")
 B.Ds=new A.Vp(1,"latency")
-B.SR=new A.aF("Type",null,null,null,null,null,null,null,null,null)
-B.Dt=new A.c7(B.SR)
+B.SS=new A.aF("Type",null,null,null,null,null,null,null,null,null)
+B.Dt=new A.c7(B.SS)
 B.yZ=new A.aF("Applicable",null,null,null,null,null,null,null,null,null)
 B.DF=new A.c7(B.yZ)
 B.T2=new A.aF("% Sol.",null,null,null,null,null,null,null,null,null)
@@ -81860,15 +81860,15 @@ B.O0=new A.cY(60,null,null,null)
 B.S=new A.k6(2,"center")
 B.Tl=new A.aF("Est.",null,null,B.S,null,null,null,null,null,null)
 B.O7=new A.cY(110,null,B.Tl,null)
-B.SF=new A.aF("Num",null,null,B.S,null,null,null,null,null,null)
-B.O2=new A.cY(90,null,B.SF,null)
+B.SG=new A.aF("Num",null,null,B.S,null,null,null,null,null,null)
+B.O2=new A.cY(90,null,B.SG,null)
 B.Tg=new A.aF("Total",null,null,B.S,null,null,null,null,null,null)
 B.O1=new A.cY(110,null,B.Tg,null)
 B.Gs=A.b(s([B.O0,B.O7,B.O2,B.O1]),t.p)
 B.nd=A.b(s([0,4,12,1,5,13,3,7,15]),t.t)
 B.Eg=new A.e4("Applicable",B.yZ,B.bK,null,t.b7)
-B.SS=new A.aF("Non Applicable",null,null,null,null,null,null,null,null,null)
-B.Ej=new A.e4("Non Applicable",B.SS,B.bK,null,t.b7)
+B.ST=new A.aF("Non Applicable",null,null,null,null,null,null,null,null,null)
+B.Ej=new A.e4("Non Applicable",B.ST,B.bK,null,t.b7)
 B.Gx=A.b(s([B.Eg,B.Ej]),t.FG)
 B.V8=new A.f7(0,1)
 B.Vd=new A.f7(0.5,1)
@@ -81893,27 +81893,27 @@ B.T8=new A.aF("Material",null,null,null,null,null,null,null,null,null)
 B.Dx=new A.c7(B.T8)
 B.Tc=new A.aF("Size",null,null,null,null,null,null,null,null,null)
 B.DH=new A.c7(B.Tc)
-B.Sz=new A.aF("Val",null,null,null,null,null,null,null,null,null)
-B.DB=new A.c7(B.Sz)
+B.SA=new A.aF("Val",null,null,null,null,null,null,null,null,null)
+B.DB=new A.c7(B.SA)
 B.SV=new A.aF("Cal",null,null,null,null,null,null,null,null,null)
 B.DU=new A.c7(B.SV)
 B.Ta=new A.aF("Qty",null,null,null,null,null,null,null,null,null)
 B.DN=new A.c7(B.Ta)
-B.Sw=new A.aF("Final Cal",null,null,null,null,null,null,null,null,null)
-B.DT=new A.c7(B.Sw)
+B.Sx=new A.aF("Final Cal",null,null,null,null,null,null,null,null,null)
+B.DT=new A.c7(B.Sx)
 B.GH=A.b(s([B.Dx,B.DH,B.DB,B.DU,B.DN,B.DT]),t.UR)
-B.SJ=new A.aF("Cleaning Type - RO membranes",null,null,null,null,null,null,null,null,null)
-B.Dv=new A.c7(B.SJ)
+B.SK=new A.aF("Cleaning Type - RO membranes",null,null,null,null,null,null,null,null,null)
+B.Dv=new A.c7(B.SK)
 B.So=new A.aF("CIP Chemical Name",null,null,null,null,null,null,null,null,null)
 B.DO=new A.c7(B.So)
 B.Ti=new A.aF("Dose Rate (PPM)",null,null,null,null,null,null,null,null,null)
 B.DS=new A.c7(B.Ti)
 B.SU=new A.aF("% Conc.",null,null,null,null,null,null,null,null,null)
 B.Du=new A.c7(B.SU)
-B.SK=new A.aF("Chemical - Kg",null,null,null,null,null,null,null,null,null)
-B.DQ=new A.c7(B.SK)
-B.SA=new A.aF("Unit Price (AED)",null,null,null,null,null,null,null,null,null)
-B.DE=new A.c7(B.SA)
+B.SL=new A.aF("Chemical - Kg",null,null,null,null,null,null,null,null,null)
+B.DQ=new A.c7(B.SL)
+B.SB=new A.aF("Unit Price (AED)",null,null,null,null,null,null,null,null,null)
+B.DE=new A.c7(B.SB)
 B.Te=new A.aF("Total Price (AED)",null,null,null,null,null,null,null,null,null)
 B.DG=new A.c7(B.Te)
 B.GK=A.b(s([B.Dv,B.DO,B.DS,B.Du,B.DQ,B.DE,B.DG]),t.UR)
@@ -82006,8 +82006,8 @@ B.Fd=new A.ek(5)
 B.Fe=new A.ek(7)
 B.mY=new A.ek(8)
 B.nk=A.b(s([B.Fa,B.Fb,B.Fc,B.H,B.aB,B.Fd,B.M,B.Fe,B.mY]),A.ar("B<ek>"))
-B.SM=new A.aF("Manual",null,null,null,null,null,null,null,null,null)
-B.Eh=new A.e4("Manual",B.SM,B.bK,null,t.b7)
+B.SN=new A.aF("Manual",null,null,null,null,null,null,null,null,null)
+B.Eh=new A.e4("Manual",B.SN,B.bK,null,t.b7)
 B.Tf=new A.aF("Auto",null,null,null,null,null,null,null,null,null)
 B.Ei=new A.e4("Auto",B.Tf,B.bK,null,t.b7)
 B.Hu=A.b(s([B.Eh,B.Ei]),t.FG)
@@ -82017,27 +82017,27 @@ B.Hw=A.b(s([B.An]),t.E)
 B.es=A.b(s([B.cD,B.cl,B.f6,B.f7,B.ib]),t.QP)
 B.T3=new A.aF("Frontal Piping Size",null,null,null,null,null,null,null,null,null)
 B.DD=new A.c7(B.T3)
-B.Sy=new A.aF("Inch",null,null,null,null,null,null,null,null,null)
-B.DL=new A.c7(B.Sy)
+B.Sz=new A.aF("Inch",null,null,null,null,null,null,null,null,null)
+B.DL=new A.c7(B.Sz)
 B.Sp=new A.aF("Inch Size",null,null,null,null,null,null,null,null,null)
 B.DP=new A.c7(B.Sp)
 B.HC=A.b(s([B.DD,B.DL,B.DP]),t.UR)
-B.Su=new A.aF("Packing Size",null,null,null,null,null,null,null,null,null)
-B.DJ=new A.c7(B.Su)
-B.Sv=new A.aF("Media Details",null,null,null,null,null,null,null,null,null)
-B.DM=new A.c7(B.Sv)
+B.Sv=new A.aF("Packing Size",null,null,null,null,null,null,null,null,null)
+B.DJ=new A.c7(B.Sv)
+B.Sw=new A.aF("Media Details",null,null,null,null,null,null,null,null,null)
+B.DM=new A.c7(B.Sw)
 B.Tj=new A.aF("Actual",null,null,null,null,null,null,null,null,null)
 B.Dy=new A.c7(B.Tj)
-B.SB=new A.aF("Max Std",null,null,null,null,null,null,null,null,null)
-B.DA=new A.c7(B.SB)
-B.SN=new A.aF("H Depth-mm",null,null,null,null,null,null,null,null,null)
-B.DK=new A.c7(B.SN)
+B.SC=new A.aF("Max Std",null,null,null,null,null,null,null,null,null)
+B.DA=new A.c7(B.SC)
+B.SO=new A.aF("H Depth-mm",null,null,null,null,null,null,null,null,null)
+B.DK=new A.c7(B.SO)
 B.Sq=new A.aF("Bags",null,null,null,null,null,null,null,null,null)
 B.Dw=new A.c7(B.Sq)
-B.SI=new A.aF("Unit Price",null,null,null,null,null,null,null,null,null)
-B.DC=new A.c7(B.SI)
-B.SE=new A.aF("Total Price - AED",null,null,null,null,null,null,null,null,null)
-B.Dz=new A.c7(B.SE)
+B.SJ=new A.aF("Unit Price",null,null,null,null,null,null,null,null,null)
+B.DC=new A.c7(B.SJ)
+B.SF=new A.aF("Total Price - AED",null,null,null,null,null,null,null,null,null)
+B.Dz=new A.c7(B.SF)
 B.nl=A.b(s([B.DJ,B.DM,B.Dy,B.DA,B.DK,B.Dw,B.DC,B.Dz]),t.UR)
 B.dw=new A.fw(0,"controlModifier")
 B.dx=new A.fw(1,"shiftModifier")
@@ -83394,8 +83394,8 @@ B.T9=new A.aF("MMF:",null,B.kP,null,null,null,null,null,null,null)
 B.O3=new A.cY(60,null,B.T9,null)
 B.Tm=new A.aF("Media:",null,B.kP,null,null,null,null,null,null,null)
 B.O4=new A.cY(60,null,B.Tm,null)
-B.Ss=new A.aF("Pipes:",null,B.kP,null,null,null,null,null,null,null)
-B.O5=new A.cY(60,null,B.Ss,null)
+B.St=new A.aF("Pipes:",null,B.kP,null,null,null,null,null,null,null)
+B.O5=new A.cY(60,null,B.St,null)
 B.d4=new A.cY(null,10,null,null)
 B.eX=new A.cY(null,16,null,null)
 B.d5=new A.cY(null,20,null,null)
@@ -83726,20 +83726,20 @@ B.Ro=new A.t(!0,B.V,null,".AppleSystemUIFont",null,null,null,null,null,null,null
 B.RD=new A.t(!0,B.m,null,".AppleSystemUIFont",null,null,null,null,null,null,null,null,null,null,null,null,null,B.f,null,null,null,"blackRedwoodCity labelMedium",null,null,null,null)
 B.Pg=new A.t(!0,B.m,null,".AppleSystemUIFont",null,null,null,null,null,null,null,null,null,null,null,null,null,B.f,null,null,null,"blackRedwoodCity labelSmall",null,null,null,null)
 B.Sn=new A.ee(B.QC,B.PQ,B.QD,B.R3,B.Px,B.PE,B.Q6,B.QW,B.Qg,B.Rs,B.P7,B.Pn,B.Ro,B.RD,B.Pg)
-B.Sr=new A.aF("CIP Tank Volume:",null,B.bl,null,null,null,null,null,null,null)
-B.St=new A.aF("Media Form",null,null,null,null,null,null,null,null,null)
-B.Sx=new A.aF("Total Price (AED/day)",null,null,B.S,null,!0,null,null,null,null)
-B.SC=new A.aF("Calculate Total",null,null,null,null,null,null,null,null,null)
 B.f0=new A.t(!0,null,null,null,null,null,18,B.M,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
+B.Sr=new A.aF("Chemical Dosing Calculations For RO System",null,B.f0,null,null,null,null,null,null,null)
+B.Ss=new A.aF("CIP Tank Volume:",null,B.bl,null,null,null,null,null,null,null)
+B.Su=new A.aF("Media Form",null,null,null,null,null,null,null,null,null)
+B.Sy=new A.aF("Total Price (AED/day)",null,null,B.S,null,!0,null,null,null,null)
+B.SD=new A.aF("Calculate Total",null,null,null,null,null,null,null,null,null)
 B.yY=new A.aF("Packing & Media Details",null,B.f0,null,null,null,null,null,null,null)
-B.SD=new A.aF("Unit Price (AED)",null,null,B.S,null,!0,null,null,null,null)
-B.SG=new A.aF("Frontal Piping Sizes",null,B.f0,null,null,null,null,null,null,null)
-B.SH=new A.aF("Chemical Consumption",null,B.bl,null,null,null,null,null,null,null)
-B.SL=new A.aF("Capital cost of equipment",null,B.f0,null,null,null,null,null,null,null)
-B.SO=new A.aF("Chemical Ltrs",null,null,B.S,null,!0,null,null,null,null)
-B.SP=new A.aF("Select an option",null,null,null,null,null,null,null,null,null)
-B.SQ=new A.aF("Chemical MC - daily",null,null,null,null,null,null,null,null,null)
-B.ST=new A.aF("Chemical Dosing Calculations for RO System",null,B.f0,null,null,null,null,null,null,null)
+B.SE=new A.aF("Unit Price (AED)",null,null,B.S,null,!0,null,null,null,null)
+B.SH=new A.aF("Frontal Piping Sizes",null,B.f0,null,null,null,null,null,null,null)
+B.SI=new A.aF("Chemical Consumption",null,B.bl,null,null,null,null,null,null,null)
+B.SM=new A.aF("Capital cost of equipment",null,B.f0,null,null,null,null,null,null,null)
+B.SP=new A.aF("Chemical Ltrs",null,null,B.S,null,!0,null,null,null,null)
+B.SQ=new A.aF("Select an option",null,null,null,null,null,null,null,null,null)
+B.SR=new A.aF("Chemical MC - daily",null,null,null,null,null,null,null,null,null)
 B.SW=new A.aF("Dose Rate (PPM)",null,null,B.S,null,!0,null,null,null,null)
 B.SX=new A.aF("Conc. %",null,null,B.S,null,!0,null,null,null,null)
 B.SY=new A.aF("Chemical CIP - one per year",null,null,null,null,null,null,null,null,null)
