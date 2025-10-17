@@ -78032,7 +78032,7 @@ A.a2W.prototype={
 $1(a){var s=null,r=t.z
 switch(a.a){case"/":return A.HA(new A.a2S(),s,r)
 case"/uf":return A.HA(new A.a2T(),s,r)
-case"/chem":return A.HA(new A.a2U(),s,r)
+case"/chemicaldosing":return A.HA(new A.a2U(),s,r)
 default:return A.HA(new A.a2V(),s,r)}},
 $S:496}
 A.a2S.prototype={
